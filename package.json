@@ -1,0 +1,26 @@
+{
+  "name": "fons-theme-vscode",
+  "description": "Mix of colors that make up a beautiful, simple and eye-pleasing theme for VSCode.",
+  "displayName": "Fons Theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.42.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Fons Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/fons-theme-vscode.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/bangjelkoski/fons-theme-vscode"
+  },
+  "license": "MIT"
+}

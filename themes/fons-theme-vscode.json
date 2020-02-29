@@ -1,0 +1,859 @@
+{
+  "name": "BA Theme",
+  "type": "dark",
+  "colors": {
+    // Changes: FFA4BD -> 5A67D8 | FFADCB -> 3182CE | 7DC1FF -> 3182CE
+    // 35FFDC -> 4FD1C5 | DFEEFF -> EBF8FF | 95ffed -> EBF8FF
+    //
+
+    // Activity Bar.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
+    "activityBar.background": "#0d1520",
+    "activityBar.activeBorder": "#3182CE",
+    "activityBar.foreground": "#EBF8FF",
+    "activityBar.inactiveForeground": "#4f6880",
+    "activityBarBadge.background": "#3182CE",
+    "activityBarBadge.foreground": "#090e13",
+    // Sidebar.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
+    "sideBar.background": "#0d1520",
+    "sideBarSectionHeader.background": "#00000000",
+    "sideBarSectionHeader.border": "#00000000",
+    // Badge.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_badge
+    "badge.background": "#3182CE",
+    "badge.foreground": "#0d1520",
+    // Button.
+    // https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_button-control
+    "button.background": "#3182CE",
+    "button.foreground": "#0d1520",
+    "button.hoverBackground": "#3182CEb9",
+    // Contrast.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_contrast-colors
+    "contrastActiveBorder": "#FFFFFF00",
+    "contrastBorder": "#FFFFFF00",
+    // Base Colors.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_base-colors
+    // Foreground color for description text providing additional information, for example for a label.
+    "descriptionForeground": "#4f6880",
+    "selection.background": "#3c6d9b93",
+    // Dropdown.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_dropdown-control
+    "dropdown.background": "#131e2e",
+    "dropdown.border": "#4f6880",
+    // ——— Editor ———
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-colors
+    "editor.background": "#131e2e", // Editor background color.
+    "editor.foreground": "#EBF8FF", // Editor default foreground color.
+    "editorLineNumber.foreground": "#4f6880", // Color of editor line numbers.
+    "editorLineNumber.activeForeground": "#4f6880",
+    "editorCursor.foreground": "#3182CE", //  Color of the editor cursor.
+    //  The selection color battle starts here.
+    "editor.selectionBackground": "#3c6d9b93", // Color of the editor selection.
+    "editor.inactiveSelectionBackground": "#3c6d9b5e", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
+    "editor.selectionHighlightBackground": "#3c6d9b5e", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
+    "editor.wordHighlightBackground": "#3182CE48", // Same words other places.
+    "editor.wordHighlightStrongBackground": "#FFFFFF0D", // Cursor inside current variable.
+    "editor.findMatchBackground": "#3182CE5e", // #FF7200 Color of the current search match.
+    "editor.findMatchHighlightBackground": "#3182CE26", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
+    "editor.findRangeHighlightBackground": "#3182CE26", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
+    "editor.hoverHighlightBackground": "#3c6d9b63", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
+    "editor.lineHighlightBackground": "#16222e", // Current line of code. Background color for the highlight of line at the cursor position.
+    "editor.lineHighlightBorder": "#16222e",
+    "editor.rangeHighlightBackground": "#16222e",
+    "editorLink.activeForeground": "#4f6880",
+    "editorIndentGuide.background": "#4f688055",
+    "editorIndentGuide.activeBackground": "#4f6880",
+    "editorRuler.foreground": "#A599E91C", // Editor Ruler.
+    "editorOverviewRuler.border": "#131e2e",
+    // "editorCodeLens.foreground": "#4f6880",
+    // "editorBracketMatch.background": "#AD70FC46",
+    // "editorBracketMatch.border": "#AD70FC46",
+    // Overview ruler is located beneath the scroll bar on the right edge of the editor and gives an overview of the decorations in the editor.
+    // "editorOverviewRuler.commonContentForeground": "#FFC60055",
+    // "editorOverviewRuler.currentContentForeground": "#EE3A4355",
+    // "editorOverviewRuler.incomingContentForeground": "#3AD90055",
+    "editorOverviewRuler.addedForeground": "#37d78c",
+    "editorOverviewRuler.deletedForeground": "#EC3A37F5",
+    "editorOverviewRuler.modifiedForeground": "#EBF8FF",
+    // Errors and warnings:
+    // "editorError.border": "#EC3A37F5",
+    "editorError.foreground": "#EC3A37F5",
+    "editorWarning.border": "#FFFFFF00",
+    "editorWarning.foreground": "#3182CE",
+    // Gutter: The gutter contains the glyph margins and the line numbers:
+    // "editorGutter.background": "#090e13",
+    "editorGutter.addedBackground": "#37d78c",
+    "editorGutter.deletedBackground": "#ff6c6c",
+    "editorGutter.modifiedBackground": "#EBF8FF",
+    // Diff Editor.
+    // https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_diff-editor-colors
+    "diffEditor.insertedTextBackground": "#37d78c26",
+    // "diffEditor.insertedTextBorder": "#00FF009A",
+    // "diffEditor.removedTextBackground": "#FF000D1A",
+    // "diffEditor.removedTextBorder": "#FF000D81",
+    // Editor Groups & Tabs.
+    // "editorGroup.background": "#EC3A37F5", // Deprecated in v1.25
+    "editorGroup.border": "#4f68802d",
+    "editorGroup.dropBackground": "#131e2eD0",
+    // The editorGroupHeader.
+    "editorGroupHeader.noTabsBackground": "#0d1520",
+    "editorGroupHeader.tabsBackground": "#0d1520",
+    "editorGroupHeader.tabsBorder": "#131e2e",
+    // The tabs
+    "tab.activeBackground": "#131e2e",
+    "tab.activeForeground": "#EBF8FF",
+    // "tab.border": "#131e2e",
+    // "tab.activeBorder": "#3182CE",
+    "tab.activeBorderTop": "#3182CE",
+    "tab.inactiveBackground": "#0d1520",
+    "tab.inactiveForeground": "#4f6880",
+    "tab.unfocusedActiveForeground": "#4f6880",
+    "tab.unfocusedInactiveForeground": "#4f6880",
+    "tab.activeModifiedBorder": "#3182CE",
+    "tab.inactiveModifiedBorder": "#4f6880",
+    "tab.border": "#131e2e",
+    // The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
+    "editorWidget.background": "#0d1520",
+    "editorWidget.border": "#3182CE",
+    "editorHoverWidget.background": "#0d1520",
+    "editorHoverWidget.border": "#3182CE",
+    "editorSuggestWidget.background": "#131e2e",
+    "editorSuggestWidget.border": "#0d1520",
+    "editorSuggestWidget.foreground": "#EBF8FF",
+    "editorSuggestWidget.highlightForeground": "#3182CE",
+    "editorSuggestWidget.selectedBackground": "#4f68804f",
+    // Debug.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_debug
+    "debugToolBar.background": "#131e2e",
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
+    "debugExceptionWidget.background": "#131e2e",
+    "debugExceptionWidget.border": "#4f6880",
+    // The editor marker view shows when navigating to errors and warnings in the editor (Go to Next Error or Warning command).
+    "editorMarkerNavigation.background": "#3B536433",
+    "editorMarkerNavigationError.background": "#EC3A37F5",
+    "editorMarkerNavigationWarning.background": "#3182CE",
+    // To see the editor white spaces, enable Toggle Render Whitespace.
+    "editorWhitespace.foreground": "#3b536442",
+    "errorForeground": "#EC3A37F5",
+    // Extensions.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_extensions
+    "extensionButton.prominentBackground": "#3182CE",
+    "extensionButton.prominentForeground": "#0d1520",
+    "extensionButton.prominentHoverBackground": "#3182CEb9",
+    "extensionBadge.remoteBackground": "#3182CE",
+    "extensionBadge.remoteForeground": "#0d1520",
+    "focusBorder": "#131e2e",
+    "foreground": "#EBF8FF",
+    // Input Control.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_input-control
+    "input.background": "#0d1520",
+    "input.border": "#131e2e",
+    "input.foreground": "#3182CE",
+    "input.placeholderForeground": "#4f6880",
+    "inputOption.activeBorder": "#3182CE",
+    "inputValidation.errorBackground": "#0d1520",
+    "inputValidation.errorBorder": "#3182CE",
+    "inputValidation.infoBackground": "#0d1520",
+    "inputValidation.infoBorder": "#0d1520",
+    "inputValidation.warningBackground": "#0d1520",
+    "inputValidation.warningBorder": "#3182CE",
+    // Lists and Trees.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_lists-and-trees
+    "list.dropBackground": "#203044",
+    "list.activeSelectionBackground": "#203044",
+    "list.activeSelectionForeground": "#EBF8FF",
+    "list.focusBackground": "#203044",
+    "list.focusForeground": "#EBF8FF",
+    "list.highlightForeground": "#3182CE",
+    "list.hoverBackground": "#203044",
+    "list.hoverForeground": "#EBF8FF",
+    "list.inactiveSelectionBackground": "#131e2e",
+    "list.inactiveSelectionForeground": "#EBF8FF",
+    // // Merge Conflicts.
+    // "merge.border": "#FFFFFF00",
+    // "merge.commonContentBackground": "#A599E981",
+    // "merge.commonHeaderBackground": "#A599E981",
+    // "merge.currentContentBackground": "#3ad90093",
+    // "merge.currentHeaderBackground": "#3ad90093",
+    // "merge.incomingContentBackground": "#ff730086",
+    // "merge.incomingHeaderBackground": "#ff730086",
+    // // Notification Colors.
+    "notificationCenter.border": "#4f6880", // Notification Center border color.
+    "notificationCenterHeader.foreground": "#EBF8FF", // Notification Center header foreground color.
+    "notificationCenterHeader.background": "#253446", // Notification Center header background color.
+    "notificationToast.border": "#131e2e", // Notification toast border color.
+    "notifications.foreground": "#EBF8FF", // Notification foreground color.
+    "notifications.background": "#131e2e", // Notification background color.
+    "notifications.border": "#0d1520", // Notification border color separating from other notifications in the Notification Center.
+    "notificationLink.foreground": "#EBF8FF", // Notification links foreground color.
+    // Panel.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_panel-colors
+    "panel.background": "#0d1520",
+    "panel.border": "#00000000",
+    "panelTitle.activeBorder": "#3182CE",
+    "panelTitle.inactiveForeground": "#4f6880",
+    // Peek View Colors.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_peek-view-colors
+    "peekView.border": "#3182CE",
+    "peekViewEditor.background": "#131e2e",
+    "peekViewEditor.matchHighlightBackground": "#19354900",
+    "peekViewEditorGutter.background": "#191935",
+    "peekViewResult.background": "#131e2e",
+    "peekViewResult.fileForeground": "#4f6880",
+    "peekViewResult.lineForeground": "#EBF8FF",
+    "peekViewResult.matchHighlightBackground": "#0d1520",
+    "peekViewResult.selectionBackground": "#0d1520",
+    "peekViewResult.selectionForeground": "#EBF8FF",
+    "peekViewTitle.background": "#131e2e",
+    "peekViewTitleDescription.foreground": "#4f6880",
+    "peekViewTitleLabel.foreground": "#3182CE",
+    // // Quick Picker.
+    // // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_quick-picker
+    "pickerGroup.border": "#3182CE",
+    "pickerGroup.foreground": "#4f6880",
+    // // Progress Bar.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_progress-bar
+    "progressBar.background": "#3182CE",
+    // Scroll Bar Control.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_scroll-bar-control
+    "scrollbar.shadow": "#4f68802d",
+    "scrollbarSlider.background": "#4f68802d",
+    "scrollbarSlider.hoverBackground": "#4f6880",
+    "scrollbarSlider.activeBackground": "#3182CE",
+    // Status Bar Colors.
+    // The Status Bar is shown in the bottom of the workbench.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_status-bar-colors
+    "statusBar.background": "#0d1520",
+    "statusBar.foreground": "#4f6880",
+    "statusBar.debuggingBackground": "#3182CE",
+    "statusBar.debuggingForeground": "#131e2e",
+    "statusBar.noFolderBackground": "#0d1520",
+    "statusBar.noFolderForeground": "#4f6880",
+    "statusBarItem.activeBackground": "#141f2b",
+    "statusBarItem.hoverBackground": "#4f68802d",
+    "statusBarItem.prominentBackground": "#131e2e",
+    "statusBarItem.prominentHoverBackground": "#0d1520",
+    // // Text Colors — Colors inside a text document, such as the welcome page.
+    // // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_text-colors
+    "textBlockQuote.background": "#131e2e",
+    "textBlockQuote.border": "#3182CE",
+    "textCodeBlock.background": "#131e2e",
+    "textLink.activeForeground": "#4f6880",
+    "textLink.foreground": "#3182CE",
+    "textPreformat.foreground": "#2C5282",
+    "textSeparator.foreground": "#131e2e",
+    // Title bar.
+    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_title-bar-colors
+    "titleBar.activeBackground": "#131e2e",
+    "titleBar.activeForeground": "#EBF8FF",
+    "titleBar.inactiveBackground": "#131e2e",
+    "titleBar.inactiveForeground": "#4f6880",
+    "walkThrough.embeddedEditorBackground": "#131e2e",
+    "welcomePage.buttonBackground": "#131e2e",
+    "welcomePage.buttonHoverBackground": "#203044",
+    "widget.shadow": "#00000026",
+    // // Breadcrumbs.
+    // // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_breadcrumbs
+    "breadcrumb.foreground": "#4f6880",
+    "breadcrumb.focusForeground": "#3182CE", // Color of focused breadcrumb items.
+    "breadcrumb.activeSelectionForeground": "#EBF8FF", // Color of selected breadcrumb items.
+    "breadcrumbPicker.background": "#131e2e", // Background color of breadcrumb item picker.
+    // // New Settings Editor.
+    // // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_settings-editor-colors
+    "settings.headerForeground": "#EBF8FF",
+    "settings.dropdownBackground": "#131e2e",
+    "settings.checkboxBackground": "#131e2e",
+    "settings.textInputBackground": "#131e2e",
+    "settings.numberInputBackground": "#131e2e",
+    "settings.dropdownForeground": "#E5E4FB",
+    "settings.checkboxForeground": "#E5E4FB",
+    "settings.textInputForeground": "#E5E4FB",
+    "settings.numberInputForeground": "#E5E4FB",
+    "settings.dropdownBorder": "#131e2e",
+    "settings.checkboxBorder": "#131e2e",
+    "settings.textInputBorder": "#131e2e",
+    "settings.numberInputBorder": "#131e2e",
+    "settings.dropdownListBorder": "#0d1520",
+    "settings.modifiedItemIndicator": "#3182CE",
+    // // Customizable menu.
+    "menu.separatorBackground": "#4f6880",
+    // // Tab stops.
+    "editor.snippetTabstopHighlightBackground": "#4f6880",
+    "editor.snippetTabstopHighlightBorder": "#4f6880",
+    "editor.snippetFinalTabstopHighlightBackground": "#4f6880",
+    "editor.snippetFinalTabstopHighlightBorder": "#4f6880",
+    // // Tree List Filter Colors.
+    "listFilterWidget.background": "#0d1520",
+    "listFilterWidget.outline": "#0d1520",
+    "listFilterWidget.noMatchesOutline": "#EC3A37F5",
+    // // TODO: Colors to be added.
+    "inputValidation.infoForeground": "#3182CE", // Input validation foreground color for information severity.
+    "inputValidation.warningForeground": "#00000000", // Input validation foreground color for warning severity.
+    "inputValidation.errorForeground": "#EC3A37F5" // Input validation foreground color for error severity.
+  },
+  "tokenColors": [
+    {
+      "settings": {
+        "foreground": "#EBF8FFff",
+        "background": "#0d1520ff"
+      }
+    },
+    {
+      "scope": [
+        "meta.other.type.phpdoc.php punctuation.separator.inheritance.php",
+        "meta.other.type.phpdoc.php support.other.namespace.php",
+        "comment",
+        "punctuation.definition.comment",
+        "punctuation.definition.tag",
+        "comment.block.documentation punctuation.definition.bracket"
+      ],
+      "settings": {
+        "foreground": "#4f6880"
+      }
+    },
+    {
+      "scope": [
+        "support.type.property-name.css",
+        "source.vue meta.objectliteral.js punctuation.definition.block.js",
+        "meta.other.type.phpdoc.php keyword.other.type.php",
+        "meta.other.type.phpdoc.php support.class.php",
+        "entity.name.type.namespace.php",
+        "support.other.namespace.php",
+        "punctuation",
+        "meta.brace",
+        "constant.character",
+        "constant.escape",
+        "text.html.markdown",
+        "punctuation.definition.list_item.markdown",
+        "keyword.begin.tag.ejs",
+        "constant.name.attribute.tag.pug",
+        "source.clojure meta.symbol",
+        "text.html.markdown punctuation.definition.string",
+        "constant.other.symbol.ruby",
+        "constant.other.description.jsdoc",
+        "keyword.other.array.phpdoc.php",
+        "keyword.operator.other.powershell",
+        "meta.block.js meta.objectliteral.js meta.object.member.js meta.object-literal.key.js",
+        "source.js variable.other.readwrite.alias.js"
+      ],
+      "settings": {
+        "foreground": "#63B3ED"
+      }
+    },
+    {
+      "scope": [
+        "entity.other.attribute-name.id.html",
+        // "meta.function.parameter.typehinted.php storage.type.php",
+        "invalid.deprecated.entity.other.attribute-name.html",
+        "entity.other.attribute-name.html",
+        "variable",
+        "variable.object",
+        "variable.other",
+        "variable.parameter",
+        "support",
+        "string constant.other.placeholder",
+        "source.css.scss variable",
+        "entity.name.module",
+        "variable.import.parameter",
+        "variable.other.class",
+        "meta.toc-list.id.html",
+        "source.json meta.structure.dictionary.json support.type.property-name.json",
+        "markup.list",
+        "meta.var.clojure",
+        "source.cs entity.name.variable",
+        "source.java meta.class.body.java",
+        "entity.name.package.go",
+        "source.c",
+        "source.cpp",
+        "source.go",
+        "source.python",
+        "meta.function-call.arguments.python",
+        "source.ruby",
+        "source.coffee.embedded.source",
+        "source.coffee",
+        "storage.modifier.import",
+        "storage.modifier.package",
+        "storage.type.annotation",
+        "punctuation.definition.annotation",
+        "source.groovy.embedded.source",
+        "punctuation.definition.variable",
+        "support.variable.property.dom.js",
+        "source.powershell",
+        "source.js meta.object-literal.key.js"
+      ],
+      "settings": {
+        "foreground": "#FFD6AE"
+      }
+    },
+    {
+      "scope": [
+        "meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key.js"
+      ],
+      "settings": {
+        "foreground": "#ffd6aeb0"
+      }
+    },
+    {
+      "scope": [
+        "invalid",
+        "invalid.illegal",
+        "meta.export.default.js keyword.control.export.js",
+        "meta.export.default.js keyword.control.default.js",
+        "keyword.control.flow.js",
+        "storage.type.class.php",
+        "storage.modifier.extends.php",
+        "constant",
+        "support.constant",
+        "punctuation.definition.entity",
+        "constant.character.entity",
+        "support.variable.magic",
+        // "entity.other.attribute-name",
+        "markup.quote",
+        "source.python support.type.python",
+        "keyword.type.cs",
+        "support.type.primitive",
+        "meta.type.parameters entity.name.type",
+        "meta.type.annotation entity.name.type",
+        "punctuation.definition.typeparameters",
+        "entity.name.type.type-parameter.cs",
+        "punctuation.bracket.angle",
+        "entity.name.function.preprocessor.c",
+        "storage.class.std.rust",
+        "storage.modifier.lifetime.rust",
+        "storage.modifier.lifetime.rust entity.name.lifetime.rust",
+        "comment.block.documentation entity.name.type",
+        // "comment.block.documentation.phpdoc.php keyword.other.type.php",
+        "support.variable.lua",
+        "support.type.vb",
+        "source.scala entity.name.class",
+        "storage.type.c",
+        "storage.type.core.rust",
+        "storage.type.primitive",
+        "source.java storage.type",
+        "source.groovy storage.type",
+        "storage.type.php",
+        "storage.type.scala",
+        "storage.type.cs",
+        "source.go storage.type",
+        "keyword.other.important.scss",
+        "entity.name.type.class.php",
+        "keyword.other.new.php",
+        "keyword.other.namespace.php",
+        "keyword.control.return.php",
+        "meta.use.php",
+        "keyword.other.use.php"
+      ],
+      "settings": {
+        "foreground": "#EC2864" // Changed here from cc9900, f78c6c
+      }
+    },
+    {
+      "scope": [
+        "source.vue entity.name.tag.template.html",
+        "source.vue entity.name.tag.script.html",
+        "source.vue entity.name.tag.style.html",
+        "meta.function.php entity.name.function.php",
+        "variable.language",
+        "variable.parameter.function.language.special",
+        "markup.bold",
+        "markup.italic",
+        "punctuation.definition.italic",
+        "punctuation.definition.bold",
+        "entity.name.tag",
+        "variable.language punctuation.definition.variable.php",
+        "keyword.control.clojure",
+        "support.type.exception.python",
+        "keyword.other.this.cs",
+        "keyword.other.base.cs",
+        "keyword.other.var.cs",
+        "storage.modifier.super",
+        "source.go keyword",
+        "keyword.function.go",
+        "punctuation.separator.namespace",
+        "constant.other.symbol.hashkey.ruby",
+        "constant.other.symbol.hashkey.ruby punctuation.definition.constant.ruby",
+        "keyword.other.rust",
+        "keyword.other.fn.rust",
+        "storage.modifier.const.rust",
+        "storage.modifier.static.rust",
+        "source.r meta.function.r keyword.control.r",
+        "storage.type.def",
+        "meta.class.identifier storage.modifier",
+        "source.scala keyword.declaration",
+        "storage.type",
+        "comment.block.documentation punctuation.definition.block.tag",
+        "entity.other.attribute-name.class.css",
+        "entity.name.tag.html",
+        "keyword",
+        "keyword.control",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "storage.modifier",
+        "meta.tag.sgml",
+        "text.html.markdown markup.inline.raw.markdown",
+        "punctuation.accessor",
+        "constant.other.color",
+        "entity.name.section.markdown",
+        "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown",
+        "markdown.heading",
+        "markup.deleted.git_gutter",
+        "markup.heading | markup.heading entity.name",
+        "markup.heading.markdown punctuation.definition.heading.markdown",
+        "entity.other.attribute-name.pseudo-class",
+        "entity.other.attribute-name.pseudo-element",
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js",
+        "storage.type.function.pug",
+        "text.pug storage.type",
+        "text.pug meta.tag.other",
+        "source.clojure storage.control",
+        "meta.expression.clojure",
+        "punctuation.separator.slice.python",
+        "punctuation.separator.question-mark.cs",
+        "punctuation.definition.parameters.varargs",
+        "source.go keyword.operator",
+        "punctuation.definition.directive.c",
+        "punctuation.separator.pointer-access",
+        "punctuation.separator.other.ruby",
+        "source.ruby punctuation.separator.key-value",
+        "keyword.package.go",
+        "keyword.import.go",
+        "punctuation.definition.keyword",
+        "storage.type.modifier.cpp",
+        "punctuation.separator.hash.cs"
+      ],
+      "settings": {
+        "foreground": "#EC2864"
+      }
+    },
+    {
+      "scope": [
+        "string",
+        "string.template.js",
+        "source.vue meta.toc-list.id.html",
+        "constant.other.symbol",
+        "constant.other.key",
+        "markup.inserted.git_gutter",
+        "punctuation.definition.string",
+        "source.css support.constant",
+        "markup.raw.block",
+        "markup.inline.raw.string.markdown",
+        "entity.name.import.go",
+        "string.template",
+        "punctuation.definition.string.template",
+        "string.interpolated.python string.quoted.single.python",
+        "string.quoted.double.heredoc",
+        "constant.numeric",
+        "constant.language",
+        "punctuation.separator.decimal.period.php"
+      ],
+      "settings": {
+        "foreground": "#48BB78"
+      }
+    },
+    {
+      "scope": [
+        "meta.block.js entity.name.type.js",
+        "variable.language.this.js",
+        "source.directive.vue variable.other.readwrite.js",
+        "expression.embedded.vue variable.other.readwrite.js",
+        "expression.embedded.vue punctuation.definition.generic.begin.html",
+        "expression.embedded.vue punctuation.definition.generic.end.html",
+        "meta.class.body.php storage.type.php",
+        "meta.function.parameter.typehinted.php storage.type.php",
+        "variable.language.this.php",
+        "variable.language.this.php punctuation.definition.variable.php",
+        "support.class",
+        "meta.use.php support.class.builtin.php",
+        "entity.name.type.class.php",
+        "meta.use.php support.class.php",
+        "variable.function",
+        "keyword.other.special-method",
+        "source.css support.type.property-name",
+        "source.sass support.type.property-name",
+        "source.scss support.type.property-name",
+        "source.less support.type.property-name",
+        "source.stylus support.type.property-name",
+        "source.postcss support.type.property-name",
+        "keyword.other.unit",
+        "entity.name.function",
+        "string.other.link",
+        "support.type.vendored",
+        "support.other.variable",
+        "meta.function-call.generic.python",
+        "meta.method-call.groovy meta.method.groovy",
+        "meta.class.body.groovy meta.method.body.java storage.type.groovy",
+        "keyword.blade",
+        "entity.name",
+        "entity.other",
+        "meta.use.php",
+        "support.type",
+        "support.class",
+        "punctuation.definition.parameters",
+        // "support.function",
+        "support.function.construct",
+        "markup.changed.git_gutter",
+        "markup.underline.link.markdown",
+        "markup.underline.link.image.markdown",
+        "markup.underline",
+        "meta.symbol.namespace.clojure",
+        "entity.name.type.namespace.cs",
+        "punctuation.definition.begin.bracket.curly.php",
+        "punctuation.definition.end.bracket.curly.php",
+        "punctuation.definition.end.bracket.round.php",
+        "punctuation.definition.begin.bracket.round.php",
+        "punctuation.definition.class.end.bracket.curly.php",
+        "punctuation.definition.class.begin.bracket.curly.php",
+        "punctuation.section.array.begin.php",
+        "punctuation.section.array.end.php",
+        "variable.other.constant"
+      ],
+      "settings": {
+        "foreground": "#EBF8FF" // Changed here from 16a3b6, 49d6e9
+      }
+    },
+    {
+      "scope": [
+        "meta.export.default.js meta.objectliteral.js meta.objectliteral.js meta.definition.method.js entity.name.function.js",
+        "meta.export.default.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.method.declaration.js meta.parameters.js punctuation.definition.parameters.begin.js",
+        "meta.export.default.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.method.declaration.js meta.parameters.js punctuation.definition.parameters.end.js",
+        "meta.block.js meta.brace.round.js",
+        "meta.function-call.js entity.name.function.js",
+        "punctuation.definition.arguments.begin.bracket.round.php",
+        "punctuation.definition.arguments.end.bracket.round.php",
+        "support.function.magic.php",
+        "support.function.array.php",
+        "meta.function-call.php",
+        "support.function",
+        "entity.name.function.php",
+        "source.js constant.other.object.key.js string.unquoted.label.js",
+        "source.js punctuation.section.embedded",
+        "punctuation.definition.template-expression",
+        // "support.class",
+        "entity.name.type",
+        "storage.type.string.python",
+        "string.interpolated.pug",
+        "support.constant.handlebars",
+        "source.clojure punctuation.section.set",
+        "source.clojure punctuation.section.metadata",
+        "entity.global.clojure",
+        "source.python meta.function-call.python support.type.python",
+        "constant.character.format.placeholder.other.python",
+        "entity.other.inherited-class.python",
+        "punctuation.definition.interpolation",
+        "constant.other.placeholder.go",
+        "constant.other.placeholder.c",
+        "punctuation.section.embedded.begin.ruby",
+        "punctuation.section.embedded.end.ruby source.ruby",
+        "support.constant.math",
+        "punctuation.section.embedded.coffee",
+        "entity.namespace.r",
+        "meta.method-call.groovy storage.type.groovy",
+        "punctuation.section.embedded.groovy",
+        "entity.name.function-table.lua",
+        "source.scala entity.name.class.declaration",
+        "constant.character.escape",
+        "meta.definition.method.js entity.name.function.js"
+      ],
+      "settings": {
+        "foreground": "#2B6CB0"
+      }
+    },
+    {
+      "scope": ["support.variable.dom", "support.variable.property.dom"],
+      "settings": {
+        "foreground": "#F56565"
+      }
+    },
+    {
+      "name": "Italic",
+      "scope": [
+        "comment",
+        "punctuation.definition.comment",
+        "entity.other",
+        "variable.language",
+        "support.type.vendored",
+        "support.constant.vendored",
+        "source.python support.type.python",
+        "entity.other.attribute-name",
+        "markup.quote",
+        "markup.italic",
+        "tag.decorator.js entity.name.tag.js",
+        "tag.decorator.js punctuation.definition.tag.js",
+        "keyword.control.clojure",
+        "source.clojure meta.symbol.dynamic",
+        "keyword.other.this.cs",
+        "keyword.other.base.cs",
+        "meta.type.annotation entity.name.type",
+        "support.variable.property.dom",
+        "variable.other.member.c",
+        "keyword.control.pseudo-method.ruby",
+        "keyword.other.special-method.ruby",
+        "source.ruby variable.other.readwrite",
+        "storage.class.std.rust",
+        "support.type.core.rust",
+        "variable.other.object.property",
+        "variable.other.property",
+        "source.r meta.function.r keyword.control.r",
+        "comment.line.roxygen.r keyword",
+        "comment.line.roxygen.r variable.parameter.r",
+        "keyword.control.inheritance.coffee",
+        "comment.block.documentation.phpdoc.php keyword",
+        "keyword.other.array.phpdoc.php",
+        "storage.type.modifier",
+        "comment.block.javadoc.java keyword",
+        "comment.block.javadoc.java variable.parameter.java",
+        "keyword.operator.documentation.powershell",
+        "variable.other.table.property.lua",
+        "storage.type.scala",
+        "meta.function.powershell storage.type.powershell",
+        "variable.parameter.function.language.special",
+        "comment.block.documentation.scala keyword",
+        "comment.block.documentation.scala variable.parameter",
+        "entity.other.attribute-name.id.html"
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Bold",
+      "scope": [
+        "keyword",
+        "keyword.control",
+        "keyword.other.template",
+        "keyword.other.substitution",
+        "storage.type.function.arrow",
+        "constant.other.color",
+        "punctuation.accessor",
+        "entity.name.section.markdown",
+        "markup.bold",
+        "markup.bold string",
+        "markdown.heading",
+        "text.html.markdown markup.inline.raw.markdown punctuation.definition.raw.markdown",
+        "markup.heading | markup.heading entity.name",
+        "markup.heading.markdown punctuation.definition.heading.markdown",
+        "storage.type.function.pug",
+        "storage.type.function.python",
+        "punctuation.definition.typeparameters",
+        "storage.type.annotation",
+        "punctuation.bracket.angle",
+        "keyword.other.new",
+        "punctuation.separator.question-mark.cs",
+        "storage.type.generic.wildcard",
+        "source.go keyword.operator",
+        "punctuation.separator.namespace",
+        "constant.other.symbol.ruby punctuation.definition.constant.ruby",
+        "variable.parameter",
+        "support.constant.core.rust",
+        "support.function.builtin.rust",
+        "storage.type.function.coffee",
+        "constant.other.rune",
+        "source.cs entity.name.variable.parameter",
+        "punctuation.separator.hash.cs",
+        "support.class",
+        "meta.block.js entity.name.type.js"
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Bold-Italic",
+      "scope": [
+        "markup.bold.markdown markup.italic.markdown",
+        "markup.italic.markdown markup.bold.markdown",
+        "markup.quote markup.bold.markdown",
+        "markup.bold.markdown markup.italic.markdown string",
+        "markup.italic markup.bold string",
+        "markup.quote markup.bold.markdown string",
+        "text.html punctuation.section.embedded",
+        "support.type.primitive",
+        "keyword.type.cs",
+        "storage.type.primitive",
+        "keyword.function.go",
+        "variable.other.c",
+        "meta.function.constructor.cpp entity.name.function.cpp",
+        "meta.function.destructor.cpp entity.name.function.cpp",
+        "punctuation.definition.variable.ruby",
+        "keyword.other.fn.rust",
+        "storage.modifier.lifetime.rust",
+        "storage.modifier.lifetime.rust entity.name.lifetime.rust",
+        "source.rust meta.attribute.rust"
+      ],
+      "settings": {
+        "fontStyle": "bold italic"
+      }
+    },
+    {
+      "name": "Normal",
+      "scope": [
+        "support.variable.property.dom.js",
+        "entity.other.attribute-name.id.html",
+        "variable.other.property.php",
+        "keyword.blade",
+        "variable.language.this.php",
+        "keyword.other",
+        "keyword.control",
+        "keyword.operator",
+        "keyword.control.*.php",
+        "keyword.operator.*.php",
+        "keyword.control.if.php",
+        "keyword.operator.comparison.php",
+        "keyword.operator.logical.php",
+        "keyword.control.foreach.php",
+        "keyword.other.use-as.php",
+        "keyword.other.new.php",
+        "entity.other.inherited-class.php",
+        "keyword.other.function.use.php",
+        "keyword.other.class.php",
+        "punctuation.section.embedded.begin.php",
+        "keyword.other.use.php",
+        "keyword.operator.class.php",
+        "storage.type.php",
+        "keyword.begin.tag.ejs",
+        "source.python meta.function.decorator.python support.type.python",
+        "source.cs keyword.other",
+        "keyword.other.var.cs",
+        "source.go keyword",
+        "keyword.control.pseudo-method",
+        "keyword.other.rust",
+        "storage.modifier.const.rust",
+        "storage.modifier.static.rust",
+        "variable.parameter.r",
+        "variable.parameter.handlebars",
+        "storage.modifier.import",
+        "storage.modifier.package",
+        "meta.class.identifier storage.modifier",
+        "keyword.operator.other.powershell",
+        "source.lua storage.type.function",
+        "source.scala keyword.declaration",
+        "punctuation.accessor.js",
+        "variable.language.this.js",
+        "variable.other.property.js",
+        "variable.parameter.js",
+        "variable.other.object.property.js",
+        "entity.other.attribute-name.class.css",
+        "punctuation.definition.entity.css",
+        "entity.other.attribute-name.pseudo-class.css",
+        "constant.other.color.rgb-value.hex.css"
+      ],
+      "settings": {
+        "fontStyle": ""
+      }
+    }
+    /* MAIN Colors -------------------------------------------------------------- */
+    // Blue -> #3182CE
+    // Orange ->
+    // Red -> #EC2864
+    // Whitish -> #EBF8FF
+    // Blue to white -> #90CDF4
+    // Green -> #48BB78
+    // Orangish -> #FFD6AE
+    // Functions (Blue) -> #3182CE
+    // Classes (orange) -> #F56565
+    // Operators (darker blue) -> ##2B6CB0
+  ]
+}
