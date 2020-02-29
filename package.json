@@ -22,5 +22,6 @@
     "type": "git",
     "url": "https://github.com/bangjelkoski/fons-theme-vscode"
   },
+  "publisher": "bang",
   "license": "MIT"
 }
