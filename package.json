@@ -2,7 +2,7 @@
   "name": "fons-theme-vscode",
   "description": "Mix of colors that make up a beautiful, simple and eye-pleasing theme for VSCode.",
   "displayName": "Fons Theme",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "engines": {
     "vscode": "^1.42.0"
   },
