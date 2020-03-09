@@ -2,109 +2,80 @@
   "name": "BA Theme",
   "type": "dark",
   "colors": {
-    // Changes: FFA4BD -> 5A67D8 | FFADCB -> 3182CE | 7DC1FF -> 3182CE
-    // 35FFDC -> 4FD1C5 | DFEEFF -> EBF8FF | 95ffed -> EBF8FF
-    //
-
-    // Activity Bar.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_activity-bar
     "activityBar.background": "#0d1520",
     "activityBar.activeBorder": "#3182CE",
     "activityBar.foreground": "#EBF8FF",
     "activityBar.inactiveForeground": "#4f6880",
     "activityBarBadge.background": "#3182CE",
     "activityBarBadge.foreground": "#090e13",
-    // Sidebar.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_side-bar
+
     "sideBar.background": "#0d1520",
     "sideBarSectionHeader.background": "#00000000",
     "sideBarSectionHeader.border": "#00000000",
-    // Badge.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_badge
+
     "badge.background": "#3182CE",
     "badge.foreground": "#0d1520",
-    // Button.
-    // https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_button-control
+
     "button.background": "#3182CE",
     "button.foreground": "#0d1520",
     "button.hoverBackground": "#3182CEb9",
-    // Contrast.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_contrast-colors
+
     "contrastActiveBorder": "#FFFFFF00",
     "contrastBorder": "#FFFFFF00",
-    // Base Colors.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_base-colors
-    // Foreground color for description text providing additional information, for example for a label.
+
     "descriptionForeground": "#4f6880",
     "selection.background": "#3c6d9b93",
-    // Dropdown.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_dropdown-control
+
     "dropdown.background": "#131e2e",
     "dropdown.border": "#4f6880",
-    // ——— Editor ———
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-colors
-    "editor.background": "#131e2e", // Editor background color.
-    "editor.foreground": "#EBF8FF", // Editor default foreground color.
-    "editorLineNumber.foreground": "#4f6880", // Color of editor line numbers.
+
+    "editor.background": "#131e2e",
+    "editor.foreground": "#EBF8FF",
+    "editorLineNumber.foreground": "#4f6880",
     "editorLineNumber.activeForeground": "#4f6880",
-    "editorCursor.foreground": "#3182CE", //  Color of the editor cursor.
-    //  The selection color battle starts here.
-    "editor.selectionBackground": "#3c6d9b93", // Color of the editor selection.
-    "editor.inactiveSelectionBackground": "#3c6d9b5e", // Color of the selection in an inactive editor. The color must not be opaque to not hide underlying decorations.
-    "editor.selectionHighlightBackground": "#3c6d9b5e", // Color for regions with the same content as the selection. The color must not be opaque to not hide underlying decorations.
-    "editor.wordHighlightBackground": "#3182CE48", // Same words other places.
-    "editor.wordHighlightStrongBackground": "#FFFFFF0D", // Cursor inside current variable.
-    "editor.findMatchBackground": "#3182CE5e", // #FF7200 Color of the current search match.
-    "editor.findMatchHighlightBackground": "#3182CE26", // #FF7200A0 #FFFF0336 #FF730056 Color of the other search matches.The color must not be opaque to not hide underlying decorations.
-    "editor.findRangeHighlightBackground": "#3182CE26", // #FF730056 No idea. Color the range limiting the search (Enable 'Find in Selection' in the find widget). The color must not be opaque to not hide underlying decorations.
-    "editor.hoverHighlightBackground": "#3c6d9b63", // Highlight below the word for which a hover is shown. The color must not be opaque to not hide underlying decorations
-    "editor.lineHighlightBackground": "#16222e", // Current line of code. Background color for the highlight of line at the cursor position.
+    "editorCursor.foreground": "#3182CE",
+
+    "editor.selectionBackground": "#3c6d9b93",
+    "editor.inactiveSelectionBackground": "#3c6d9b5e",
+    "editor.selectionHighlightBackground": "#3c6d9b5e",
+    "editor.wordHighlightBackground": "#3182CE48",
+    "editor.wordHighlightStrongBackground": "#FFFFFF0D",
+    "editor.findMatchBackground": "#3182CE5e",
+    "editor.findMatchHighlightBackground": "#3182CE26",
+    "editor.findRangeHighlightBackground": "#3182CE26",
+    "editor.hoverHighlightBackground": "#3c6d9b63",
+    "editor.lineHighlightBackground": "#16222e",
     "editor.lineHighlightBorder": "#16222e",
     "editor.rangeHighlightBackground": "#16222e",
     "editorLink.activeForeground": "#4f6880",
     "editorIndentGuide.background": "#4f688055",
     "editorIndentGuide.activeBackground": "#4f6880",
-    "editorRuler.foreground": "#A599E91C", // Editor Ruler.
+    "editorRuler.foreground": "#A599E91C",
     "editorOverviewRuler.border": "#131e2e",
-    // "editorCodeLens.foreground": "#4f6880",
-    // "editorBracketMatch.background": "#AD70FC46",
-    // "editorBracketMatch.border": "#AD70FC46",
-    // Overview ruler is located beneath the scroll bar on the right edge of the editor and gives an overview of the decorations in the editor.
-    // "editorOverviewRuler.commonContentForeground": "#FFC60055",
-    // "editorOverviewRuler.currentContentForeground": "#EE3A4355",
-    // "editorOverviewRuler.incomingContentForeground": "#3AD90055",
+
     "editorOverviewRuler.addedForeground": "#37d78c",
     "editorOverviewRuler.deletedForeground": "#EC3A37F5",
     "editorOverviewRuler.modifiedForeground": "#EBF8FF",
-    // Errors and warnings:
-    // "editorError.border": "#EC3A37F5",
+
     "editorError.foreground": "#EC3A37F5",
     "editorWarning.border": "#FFFFFF00",
     "editorWarning.foreground": "#3182CE",
-    // Gutter: The gutter contains the glyph margins and the line numbers:
-    // "editorGutter.background": "#090e13",
+
     "editorGutter.addedBackground": "#37d78c",
     "editorGutter.deletedBackground": "#ff6c6c",
     "editorGutter.modifiedBackground": "#EBF8FF",
-    // Diff Editor.
-    // https: //code.visualstudio.com/docs/getstarted/theme-color-reference#_diff-editor-colors
+
     "diffEditor.insertedTextBackground": "#37d78c26",
-    // "diffEditor.insertedTextBorder": "#00FF009A",
-    // "diffEditor.removedTextBackground": "#FF000D1A",
-    // "diffEditor.removedTextBorder": "#FF000D81",
-    // Editor Groups & Tabs.
-    // "editorGroup.background": "#EC3A37F5", // Deprecated in v1.25
+
     "editorGroup.border": "#4f68802d",
     "editorGroup.dropBackground": "#131e2eD0",
-    // The editorGroupHeader.
+
     "editorGroupHeader.noTabsBackground": "#0d1520",
     "editorGroupHeader.tabsBackground": "#0d1520",
     "editorGroupHeader.tabsBorder": "#131e2e",
-    // The tabs
+
     "tab.activeBackground": "#131e2e",
     "tab.activeForeground": "#EBF8FF",
-    // "tab.border": "#131e2e",
-    // "tab.activeBorder": "#3182CE",
     "tab.activeBorderTop": "#3182CE",
     "tab.inactiveBackground": "#0d1520",
     "tab.inactiveForeground": "#4f6880",
@@ -113,8 +84,7 @@
     "tab.activeModifiedBorder": "#3182CE",
     "tab.inactiveModifiedBorder": "#4f6880",
     "tab.border": "#131e2e",
-    // The Editor widget is shown in front of the editor content. Examples are the Find/Replace dialog, the suggestion widget, and the editor hover.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
+
     "editorWidget.background": "#0d1520",
     "editorWidget.border": "#3182CE",
     "editorHoverWidget.background": "#0d1520",
@@ -124,30 +94,23 @@
     "editorSuggestWidget.foreground": "#EBF8FF",
     "editorSuggestWidget.highlightForeground": "#3182CE",
     "editorSuggestWidget.selectedBackground": "#4f68804f",
-    // Debug.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_debug
+
     "debugToolBar.background": "#131e2e",
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_editor-widget-colors
     "debugExceptionWidget.background": "#131e2e",
     "debugExceptionWidget.border": "#4f6880",
-    // The editor marker view shows when navigating to errors and warnings in the editor (Go to Next Error or Warning command).
     "editorMarkerNavigation.background": "#3B536433",
     "editorMarkerNavigationError.background": "#EC3A37F5",
     "editorMarkerNavigationWarning.background": "#3182CE",
-    // To see the editor white spaces, enable Toggle Render Whitespace.
     "editorWhitespace.foreground": "#3b536442",
     "errorForeground": "#EC3A37F5",
-    // Extensions.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_extensions
-    "extensionButton.prominentBackground": "#3182CE",
+
     "extensionButton.prominentForeground": "#0d1520",
     "extensionButton.prominentHoverBackground": "#3182CEb9",
     "extensionBadge.remoteBackground": "#3182CE",
     "extensionBadge.remoteForeground": "#0d1520",
     "focusBorder": "#131e2e",
     "foreground": "#EBF8FF",
-    // Input Control.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_input-control
+
     "input.background": "#0d1520",
     "input.border": "#131e2e",
     "input.foreground": "#3182CE",
@@ -159,8 +122,7 @@
     "inputValidation.infoBorder": "#0d1520",
     "inputValidation.warningBackground": "#0d1520",
     "inputValidation.warningBorder": "#3182CE",
-    // Lists and Trees.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_lists-and-trees
+
     "list.dropBackground": "#203044",
     "list.activeSelectionBackground": "#203044",
     "list.activeSelectionForeground": "#EBF8FF",
@@ -171,31 +133,21 @@
     "list.hoverForeground": "#EBF8FF",
     "list.inactiveSelectionBackground": "#131e2e",
     "list.inactiveSelectionForeground": "#EBF8FF",
-    // // Merge Conflicts.
-    // "merge.border": "#FFFFFF00",
-    // "merge.commonContentBackground": "#A599E981",
-    // "merge.commonHeaderBackground": "#A599E981",
-    // "merge.currentContentBackground": "#3ad90093",
-    // "merge.currentHeaderBackground": "#3ad90093",
-    // "merge.incomingContentBackground": "#ff730086",
-    // "merge.incomingHeaderBackground": "#ff730086",
-    // // Notification Colors.
-    "notificationCenter.border": "#4f6880", // Notification Center border color.
-    "notificationCenterHeader.foreground": "#EBF8FF", // Notification Center header foreground color.
-    "notificationCenterHeader.background": "#253446", // Notification Center header background color.
-    "notificationToast.border": "#131e2e", // Notification toast border color.
-    "notifications.foreground": "#EBF8FF", // Notification foreground color.
-    "notifications.background": "#131e2e", // Notification background color.
-    "notifications.border": "#0d1520", // Notification border color separating from other notifications in the Notification Center.
-    "notificationLink.foreground": "#EBF8FF", // Notification links foreground color.
-    // Panel.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_panel-colors
+
+    "notificationCenter.border": "#4f6880",
+    "notificationCenterHeader.foreground": "#EBF8FF",
+    "notificationCenterHeader.background": "#253446",
+    "notificationToast.border": "#131e2e",
+    "notifications.foreground": "#EBF8FF",
+    "notifications.background": "#131e2e",
+    "notifications.border": "#0d1520",
+    "notificationLink.foreground": "#EBF8FF",
+
     "panel.background": "#0d1520",
     "panel.border": "#00000000",
     "panelTitle.activeBorder": "#3182CE",
     "panelTitle.inactiveForeground": "#4f6880",
-    // Peek View Colors.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_peek-view-colors
+
     "peekView.border": "#3182CE",
     "peekViewEditor.background": "#131e2e",
     "peekViewEditor.matchHighlightBackground": "#19354900",
@@ -209,22 +161,17 @@
     "peekViewTitle.background": "#131e2e",
     "peekViewTitleDescription.foreground": "#4f6880",
     "peekViewTitleLabel.foreground": "#3182CE",
-    // // Quick Picker.
-    // // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_quick-picker
+
     "pickerGroup.border": "#3182CE",
     "pickerGroup.foreground": "#4f6880",
-    // // Progress Bar.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_progress-bar
+
     "progressBar.background": "#3182CE",
-    // Scroll Bar Control.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_scroll-bar-control
+
     "scrollbar.shadow": "#4f68802d",
     "scrollbarSlider.background": "#4f68802d",
     "scrollbarSlider.hoverBackground": "#4f6880",
     "scrollbarSlider.activeBackground": "#3182CE",
-    // Status Bar Colors.
-    // The Status Bar is shown in the bottom of the workbench.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_status-bar-colors
+
     "statusBar.background": "#0d1520",
     "statusBar.foreground": "#4f6880",
     "statusBar.debuggingBackground": "#3182CE",
@@ -235,8 +182,7 @@
     "statusBarItem.hoverBackground": "#4f68802d",
     "statusBarItem.prominentBackground": "#131e2e",
     "statusBarItem.prominentHoverBackground": "#0d1520",
-    // // Text Colors — Colors inside a text document, such as the welcome page.
-    // // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_text-colors
+
     "textBlockQuote.background": "#131e2e",
     "textBlockQuote.border": "#3182CE",
     "textCodeBlock.background": "#131e2e",
@@ -244,8 +190,7 @@
     "textLink.foreground": "#3182CE",
     "textPreformat.foreground": "#2C5282",
     "textSeparator.foreground": "#131e2e",
-    // Title bar.
-    // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_title-bar-colors
+
     "titleBar.activeBackground": "#131e2e",
     "titleBar.activeForeground": "#EBF8FF",
     "titleBar.inactiveBackground": "#131e2e",
@@ -254,14 +199,12 @@
     "welcomePage.buttonBackground": "#131e2e",
     "welcomePage.buttonHoverBackground": "#203044",
     "widget.shadow": "#00000026",
-    // // Breadcrumbs.
-    // // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_breadcrumbs
+
     "breadcrumb.foreground": "#4f6880",
-    "breadcrumb.focusForeground": "#3182CE", // Color of focused breadcrumb items.
-    "breadcrumb.activeSelectionForeground": "#EBF8FF", // Color of selected breadcrumb items.
-    "breadcrumbPicker.background": "#131e2e", // Background color of breadcrumb item picker.
-    // // New Settings Editor.
-    // // https://code.visualstudio.com/docs/getstarted/theme-color-reference#_settings-editor-colors
+    "breadcrumb.focusForeground": "#3182CE",
+    "breadcrumb.activeSelectionForeground": "#EBF8FF",
+    "breadcrumbPicker.background": "#131e2e",
+
     "settings.headerForeground": "#EBF8FF",
     "settings.dropdownBackground": "#131e2e",
     "settings.checkboxBackground": "#131e2e",
@@ -277,21 +220,21 @@
     "settings.numberInputBorder": "#131e2e",
     "settings.dropdownListBorder": "#0d1520",
     "settings.modifiedItemIndicator": "#3182CE",
-    // // Customizable menu.
+
     "menu.separatorBackground": "#4f6880",
-    // // Tab stops.
+
     "editor.snippetTabstopHighlightBackground": "#4f6880",
     "editor.snippetTabstopHighlightBorder": "#4f6880",
     "editor.snippetFinalTabstopHighlightBackground": "#4f6880",
     "editor.snippetFinalTabstopHighlightBorder": "#4f6880",
-    // // Tree List Filter Colors.
+
     "listFilterWidget.background": "#0d1520",
     "listFilterWidget.outline": "#0d1520",
     "listFilterWidget.noMatchesOutline": "#EC3A37F5",
-    // // TODO: Colors to be added.
-    "inputValidation.infoForeground": "#3182CE", // Input validation foreground color for information severity.
-    "inputValidation.warningForeground": "#00000000", // Input validation foreground color for warning severity.
-    "inputValidation.errorForeground": "#EC3A37F5" // Input validation foreground color for error severity.
+
+    "inputValidation.infoForeground": "#3182CE",
+    "inputValidation.warningForeground": "#00000000",
+    "inputValidation.errorForeground": "#EC3A37F5"
   },
   "tokenColors": [
     {
@@ -345,7 +288,6 @@
     {
       "scope": [
         "entity.other.attribute-name.id.html",
-        // "meta.function.parameter.typehinted.php storage.type.php",
         "invalid.deprecated.entity.other.attribute-name.html",
         "entity.other.attribute-name.html",
         "variable",
@@ -409,7 +351,6 @@
         "punctuation.definition.entity",
         "constant.character.entity",
         "support.variable.magic",
-        // "entity.other.attribute-name",
         "markup.quote",
         "source.python support.type.python",
         "keyword.type.cs",
@@ -424,7 +365,6 @@
         "storage.modifier.lifetime.rust",
         "storage.modifier.lifetime.rust entity.name.lifetime.rust",
         "comment.block.documentation entity.name.type",
-        // "comment.block.documentation.phpdoc.php keyword.other.type.php",
         "support.variable.lua",
         "support.type.vb",
         "source.scala entity.name.class",
@@ -446,7 +386,7 @@
         "keyword.other.use.php"
       ],
       "settings": {
-        "foreground": "#EC2864" // Changed here from cc9900, f78c6c
+        "foreground": "#EC2864"
       }
     },
     {
@@ -592,7 +532,6 @@
         "support.type",
         "support.class",
         "punctuation.definition.parameters",
-        // "support.function",
         "support.function.construct",
         "markup.changed.git_gutter",
         "markup.underline.link.markdown",
@@ -611,7 +550,7 @@
         "variable.other.constant"
       ],
       "settings": {
-        "foreground": "#EBF8FF" // Changed here from 16a3b6, 49d6e9
+        "foreground": "#EBF8FF"
       }
     },
     {
@@ -631,7 +570,6 @@
         "source.js constant.other.object.key.js string.unquoted.label.js",
         "source.js punctuation.section.embedded",
         "punctuation.definition.template-expression",
-        // "support.class",
         "entity.name.type",
         "storage.type.string.python",
         "string.interpolated.pug",
@@ -844,16 +782,5 @@
         "fontStyle": ""
       }
     }
-    /* MAIN Colors -------------------------------------------------------------- */
-    // Blue -> #3182CE
-    // Orange ->
-    // Red -> #EC2864
-    // Whitish -> #EBF8FF
-    // Blue to white -> #90CDF4
-    // Green -> #48BB78
-    // Orangish -> #FFD6AE
-    // Functions (Blue) -> #3182CE
-    // Classes (orange) -> #F56565
-    // Operators (darker blue) -> ##2B6CB0
   ]
 }

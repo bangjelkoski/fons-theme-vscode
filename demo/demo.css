@@ -1,0 +1,15 @@
+#demo {
+  background: blue;
+}
+
+.classDemo {
+  color: black;
+}
+
+main {
+  padding: 20px 0;
+}
+
+main::after {
+  position: absolute;
+}
