@@ -53,6 +53,10 @@
     "editorRuler.foreground": "#A599E91C",
     "editorOverviewRuler.border": "#131e2e",
 
+    "editor.tokenColorCustomizations": {
+      "semanticHighlighting": false
+    },
+
     "editorOverviewRuler.addedForeground": "#37d78c",
     "editorOverviewRuler.deletedForeground": "#EC3A37F5",
     "editorOverviewRuler.modifiedForeground": "#EBF8FF",
