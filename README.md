@@ -21,16 +21,16 @@ _Mix of colors that make up a beautiful, simple and eye-pleasing theme for VSCod
 
 ## 🎨 Color Palette
 
-- Darkest Blue (ex. main background): **#0d1520**
+- Darkest Blue (ex. main background): **#131417**
 - Blue (ex. border in open editors): **#3182ce**
 - Lightest Blue (ex. foreground): **#ebf8ff**
 - Some variation of blue (ex. inactive text foreground): **#4f6880**
-- Dark Blue (ex. editor background): **#131e2e**
+- Dark Blue (ex. editor background): **#171a21**
 - Yellowish: **#FFD6AE**
-- Magenta/Red combo: **#EC2864**
-- Green: **#48BB78**
-- Bolder Blue: **#2B6CB0**
-- Smoother/Light Blue: **#63b3ed**
+- Magenta/Red combo: **#F43F5E**
+- Green: **#10B981**
+- Bolder Blue: **#0284C7**
+- Smoother/Light Blue: **#7DD3FC**
 
 ---
 

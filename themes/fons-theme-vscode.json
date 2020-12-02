@@ -1,5 +1,5 @@
 {
-  "name": "Fons Theme",
+  "name": "BA Theme",
   "type": "dark",
   "colors": {
     "activityBar.background": "#131417",
@@ -26,10 +26,10 @@
     "descriptionForeground": "#4f6880",
     "selection.background": "#3c6d9b93",
 
-    "dropdown.background": "#131e2e",
+    "dropdown.background": "#171a21",
     "dropdown.border": "#4f6880",
 
-    "editor.background": "#131e2e",
+    "editor.background": "#171a21",
     "editor.foreground": "#EBF8FF",
     "editorLineNumber.foreground": "#4f6880",
     "editorLineNumber.activeForeground": "#4f6880",
@@ -51,7 +51,7 @@
     "editorIndentGuide.background": "#4f688055",
     "editorIndentGuide.activeBackground": "#4f6880",
     "editorRuler.foreground": "#A599E91C",
-    "editorOverviewRuler.border": "#131e2e",
+    "editorOverviewRuler.border": "#171a21",
 
     "editor.tokenColorCustomizations": {
       "semanticHighlighting": false
@@ -72,13 +72,13 @@
     "diffEditor.insertedTextBackground": "#37d78c26",
 
     "editorGroup.border": "#4f68802d",
-    "editorGroup.dropBackground": "#131e2eD0",
+    "editorGroup.dropBackground": "#171a21D0",
 
     "editorGroupHeader.noTabsBackground": "#131417",
     "editorGroupHeader.tabsBackground": "#131417",
-    "editorGroupHeader.tabsBorder": "#131e2e",
+    "editorGroupHeader.tabsBorder": "#171a21",
 
-    "tab.activeBackground": "#131e2e",
+    "tab.activeBackground": "#171a21",
     "tab.activeForeground": "#EBF8FF",
     "tab.activeBorderTop": "#3182CE",
     "tab.inactiveBackground": "#131417",
@@ -87,20 +87,20 @@
     "tab.unfocusedInactiveForeground": "#4f6880",
     "tab.activeModifiedBorder": "#3182CE",
     "tab.inactiveModifiedBorder": "#4f6880",
-    "tab.border": "#131e2e",
+    "tab.border": "#171a21",
 
     "editorWidget.background": "#131417",
     "editorWidget.border": "#3182CE",
     "editorHoverWidget.background": "#131417",
     "editorHoverWidget.border": "#3182CE",
-    "editorSuggestWidget.background": "#131e2e",
+    "editorSuggestWidget.background": "#171a21",
     "editorSuggestWidget.border": "#131417",
     "editorSuggestWidget.foreground": "#EBF8FF",
     "editorSuggestWidget.highlightForeground": "#3182CE",
     "editorSuggestWidget.selectedBackground": "#4f68804f",
 
-    "debugToolBar.background": "#131e2e",
-    "debugExceptionWidget.background": "#131e2e",
+    "debugToolBar.background": "#171a21",
+    "debugExceptionWidget.background": "#171a21",
     "debugExceptionWidget.border": "#4f6880",
     "editorMarkerNavigation.background": "#3B536433",
     "editorMarkerNavigationError.background": "#EC3A37F5",
@@ -112,11 +112,11 @@
     "extensionButton.prominentHoverBackground": "#3182CEb9",
     "extensionBadge.remoteBackground": "#3182CE",
     "extensionBadge.remoteForeground": "#131417",
-    "focusBorder": "#131e2e",
+    "focusBorder": "#171a21",
     "foreground": "#EBF8FF",
 
     "input.background": "#131417",
-    "input.border": "#131e2e",
+    "input.border": "#171a21",
     "input.foreground": "#3182CE",
     "input.placeholderForeground": "#4f6880",
     "inputOption.activeBorder": "#3182CE",
@@ -135,15 +135,15 @@
     "list.highlightForeground": "#3182CE",
     "list.hoverBackground": "#203044",
     "list.hoverForeground": "#EBF8FF",
-    "list.inactiveSelectionBackground": "#131e2e",
+    "list.inactiveSelectionBackground": "#171a21",
     "list.inactiveSelectionForeground": "#EBF8FF",
 
     "notificationCenter.border": "#4f6880",
     "notificationCenterHeader.foreground": "#EBF8FF",
     "notificationCenterHeader.background": "#253446",
-    "notificationToast.border": "#131e2e",
+    "notificationToast.border": "#171a21",
     "notifications.foreground": "#EBF8FF",
-    "notifications.background": "#131e2e",
+    "notifications.background": "#171a21",
     "notifications.border": "#131417",
     "notificationLink.foreground": "#EBF8FF",
 
@@ -153,16 +153,16 @@
     "panelTitle.inactiveForeground": "#4f6880",
 
     "peekView.border": "#3182CE",
-    "peekViewEditor.background": "#131e2e",
+    "peekViewEditor.background": "#171a21",
     "peekViewEditor.matchHighlightBackground": "#19354900",
     "peekViewEditorGutter.background": "#191935",
-    "peekViewResult.background": "#131e2e",
+    "peekViewResult.background": "#171a21",
     "peekViewResult.fileForeground": "#4f6880",
     "peekViewResult.lineForeground": "#EBF8FF",
     "peekViewResult.matchHighlightBackground": "#131417",
     "peekViewResult.selectionBackground": "#131417",
     "peekViewResult.selectionForeground": "#EBF8FF",
-    "peekViewTitle.background": "#131e2e",
+    "peekViewTitle.background": "#171a21",
     "peekViewTitleDescription.foreground": "#4f6880",
     "peekViewTitleLabel.foreground": "#3182CE",
 
@@ -179,49 +179,49 @@
     "statusBar.background": "#131417",
     "statusBar.foreground": "#4f6880",
     "statusBar.debuggingBackground": "#3182CE",
-    "statusBar.debuggingForeground": "#131e2e",
+    "statusBar.debuggingForeground": "#171a21",
     "statusBar.noFolderBackground": "#131417",
     "statusBar.noFolderForeground": "#4f6880",
     "statusBarItem.activeBackground": "#141f2b",
     "statusBarItem.hoverBackground": "#4f68802d",
-    "statusBarItem.prominentBackground": "#131e2e",
+    "statusBarItem.prominentBackground": "#171a21",
     "statusBarItem.prominentHoverBackground": "#131417",
 
-    "textBlockQuote.background": "#131e2e",
+    "textBlockQuote.background": "#171a21",
     "textBlockQuote.border": "#3182CE",
-    "textCodeBlock.background": "#131e2e",
+    "textCodeBlock.background": "#171a21",
     "textLink.activeForeground": "#4f6880",
     "textLink.foreground": "#3182CE",
     "textPreformat.foreground": "#2C5282",
-    "textSeparator.foreground": "#131e2e",
+    "textSeparator.foreground": "#171a21",
 
-    "titleBar.activeBackground": "#131e2e",
+    "titleBar.activeBackground": "#171a21",
     "titleBar.activeForeground": "#EBF8FF",
-    "titleBar.inactiveBackground": "#131e2e",
+    "titleBar.inactiveBackground": "#171a21",
     "titleBar.inactiveForeground": "#4f6880",
-    "walkThrough.embeddedEditorBackground": "#131e2e",
-    "welcomePage.buttonBackground": "#131e2e",
+    "walkThrough.embeddedEditorBackground": "#171a21",
+    "welcomePage.buttonBackground": "#171a21",
     "welcomePage.buttonHoverBackground": "#203044",
     "widget.shadow": "#00000026",
 
     "breadcrumb.foreground": "#4f6880",
     "breadcrumb.focusForeground": "#3182CE",
     "breadcrumb.activeSelectionForeground": "#EBF8FF",
-    "breadcrumbPicker.background": "#131e2e",
+    "breadcrumbPicker.background": "#171a21",
 
     "settings.headerForeground": "#EBF8FF",
-    "settings.dropdownBackground": "#131e2e",
-    "settings.checkboxBackground": "#131e2e",
-    "settings.textInputBackground": "#131e2e",
-    "settings.numberInputBackground": "#131e2e",
+    "settings.dropdownBackground": "#171a21",
+    "settings.checkboxBackground": "#171a21",
+    "settings.textInputBackground": "#171a21",
+    "settings.numberInputBackground": "#171a21",
     "settings.dropdownForeground": "#E5E4FB",
     "settings.checkboxForeground": "#E5E4FB",
     "settings.textInputForeground": "#E5E4FB",
     "settings.numberInputForeground": "#E5E4FB",
-    "settings.dropdownBorder": "#131e2e",
-    "settings.checkboxBorder": "#131e2e",
-    "settings.textInputBorder": "#131e2e",
-    "settings.numberInputBorder": "#131e2e",
+    "settings.dropdownBorder": "#171a21",
+    "settings.checkboxBorder": "#171a21",
+    "settings.textInputBorder": "#171a21",
+    "settings.numberInputBorder": "#171a21",
     "settings.dropdownListBorder": "#131417",
     "settings.modifiedItemIndicator": "#3182CE",
 
@@ -264,6 +264,7 @@
       "scope": [
         "support.type.property-name.css",
         "source.vue meta.objectliteral.js punctuation.definition.block.js",
+        "source.vue meta.objectliteral.ts punctuation.definition.block.ts",
         "meta.other.type.phpdoc.php keyword.other.type.php",
         "meta.other.type.phpdoc.php support.class.php",
         "entity.name.type.namespace.php",
@@ -283,10 +284,12 @@
         "keyword.other.array.phpdoc.php",
         "keyword.operator.other.powershell",
         "meta.block.js meta.objectliteral.js meta.object.member.js meta.object-literal.key.js",
-        "source.js variable.other.readwrite.alias.js"
+        "source.js variable.other.readwrite.alias.js",
+        "meta.block.ts meta.objectliteral.ts meta.object.member.ts meta.object-literal.key.ts",
+        "source.ts variable.other.readwrite.alias.ts"
       ],
       "settings": {
-        "foreground": "#63B3ED"
+        "foreground": "#7DD3FC"
       }
     },
     {
@@ -326,8 +329,10 @@
         "source.groovy.embedded.source",
         "punctuation.definition.variable",
         "support.variable.property.dom.js",
+        "support.variable.property.dom.ts",
         "source.powershell",
-        "source.js meta.object-literal.key.js"
+        "source.js meta.object-literal.key.js",
+        "source.ts meta.object-literal.key.ts"
       ],
       "settings": {
         "foreground": "#FFD6AE"
@@ -335,7 +340,8 @@
     },
     {
       "scope": [
-        "meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key.js"
+        "meta.object.member.js meta.objectliteral.js meta.object.member.js meta.object-literal.key.js",
+        "meta.object.member.ts meta.objectliteral.ts meta.object.member.ts meta.object-literal.key.ts"
       ],
       "settings": {
         "foreground": "#ffd6aeb0"
@@ -348,6 +354,9 @@
         "meta.export.default.js keyword.control.export.js",
         "meta.export.default.js keyword.control.default.js",
         "keyword.control.flow.js",
+        "meta.export.default.ts keyword.control.export.ts",
+        "meta.export.default.ts keyword.control.default.ts",
+        "keyword.control.flow.ts",
         "storage.type.class.php",
         "storage.modifier.extends.php",
         "constant",
@@ -390,7 +399,7 @@
         "keyword.other.use.php"
       ],
       "settings": {
-        "foreground": "#EC2864"
+        "foreground": "#F43F5E"
       }
     },
     {
@@ -449,6 +458,8 @@
         "entity.other.attribute-name.pseudo-element",
         "tag.decorator.js entity.name.tag.js",
         "tag.decorator.js punctuation.definition.tag.js",
+        "tag.decorator.ts entity.name.tag.ts",
+        "tag.decorator.ts punctuation.definition.tag.ts",
         "storage.type.function.pug",
         "text.pug storage.type",
         "text.pug meta.tag.other",
@@ -469,13 +480,14 @@
         "punctuation.separator.hash.cs"
       ],
       "settings": {
-        "foreground": "#EC2864"
+        "foreground": "#F43F5E"
       }
     },
     {
       "scope": [
         "string",
         "string.template.js",
+        "string.template.ts",
         "source.vue meta.toc-list.id.html",
         "constant.other.symbol",
         "constant.other.key",
@@ -494,7 +506,7 @@
         "punctuation.separator.decimal.period.php"
       ],
       "settings": {
-        "foreground": "#48BB78"
+        "foreground": "#10B981"
       }
     },
     {
@@ -503,6 +515,10 @@
         "variable.language.this.js",
         "source.directive.vue variable.other.readwrite.js",
         "expression.embedded.vue variable.other.readwrite.js",
+        "meta.block.ts entity.name.type.ts",
+        "variable.language.this.ts",
+        "source.directive.vue variable.other.readwrite.ts",
+        "expression.embedded.vue variable.other.readwrite.ts",
         "expression.embedded.vue punctuation.definition.generic.begin.html",
         "expression.embedded.vue punctuation.definition.generic.end.html",
         "meta.class.body.php storage.type.php",
@@ -564,6 +580,11 @@
         "meta.export.default.js meta.objectliteral.js meta.object.member.js meta.objectliteral.js meta.method.declaration.js meta.parameters.js punctuation.definition.parameters.end.js",
         "meta.block.js meta.brace.round.js",
         "meta.function-call.js entity.name.function.js",
+        "meta.export.default.ts meta.objectliteral.ts meta.objectliteral.ts meta.definition.method.ts entity.name.function.ts",
+        "meta.export.default.ts meta.objectliteral.ts meta.object.member.ts meta.objectliteral.ts meta.method.declaration.ts meta.parameters.ts punctuation.definition.parameters.begin.ts",
+        "meta.export.default.ts meta.objectliteral.ts meta.object.member.ts meta.objectliteral.ts meta.method.declaration.ts meta.parameters.ts punctuation.definition.parameters.end.ts",
+        "meta.block.ts meta.brace.round.ts",
+        "meta.function-call.ts entity.name.function.ts",
         "punctuation.definition.arguments.begin.bracket.round.php",
         "punctuation.definition.arguments.end.bracket.round.php",
         "support.function.magic.php",
@@ -573,6 +594,8 @@
         "entity.name.function.php",
         "source.js constant.other.object.key.js string.unquoted.label.js",
         "source.js punctuation.section.embedded",
+        "source.ts constant.other.object.key.ts string.unquoted.label.ts",
+        "source.ts punctuation.section.embedded",
         "punctuation.definition.template-expression",
         "entity.name.type",
         "storage.type.string.python",
@@ -597,10 +620,11 @@
         "entity.name.function-table.lua",
         "source.scala entity.name.class.declaration",
         "constant.character.escape",
-        "meta.definition.method.js entity.name.function.js"
+        "meta.definition.method.js entity.name.function.js",
+        "meta.definition.method.ts entity.name.function.ts"
       ],
       "settings": {
-        "foreground": "#2B6CB0"
+        "foreground": "#0284C7"
       }
     },
     {
@@ -624,6 +648,8 @@
         "markup.italic",
         "tag.decorator.js entity.name.tag.js",
         "tag.decorator.js punctuation.definition.tag.js",
+        "tag.decorator.ts entity.name.tag.ts",
+        "tag.decorator.ts punctuation.definition.tag.ts",
         "keyword.control.clojure",
         "source.clojure meta.symbol.dynamic",
         "keyword.other.this.cs",
@@ -696,7 +722,8 @@
         "source.cs entity.name.variable.parameter",
         "punctuation.separator.hash.cs",
         "support.class",
-        "meta.block.js entity.name.type.js"
+        "meta.block.js entity.name.type.js",
+        "meta.block.ts entity.name.type.ts"
       ],
       "settings": {
         "fontStyle": "bold"
@@ -777,6 +804,11 @@
         "variable.other.property.js",
         "variable.parameter.js",
         "variable.other.object.property.js",
+        "punctuation.accessor.ts",
+        "variable.language.this.ts",
+        "variable.other.property.ts",
+        "variable.parameter.ts",
+        "variable.other.object.property.ts",
         "entity.other.attribute-name.class.css",
         "punctuation.definition.entity.css",
         "entity.other.attribute-name.pseudo-class.css",
